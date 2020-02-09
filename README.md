@@ -1,0 +1,2 @@
+# giphyIntegrationPractice
+Created with CodeSandbox
