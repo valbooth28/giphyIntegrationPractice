@@ -2,21 +2,16 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "keywords": ["react", "starter"],
   "main": "src/index.js",
   "dependencies": {
-    "html-webpack-inline-source-plugin": "0.0.10",
-    "html-webpack-plugin": "3.2.0",
+    "css-loader": "3.4.2",
     "path": "0.12.7",
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-scripts": "3.0.1",
-    "react-tooltip": "4.0.3",
-    "webpack-dev-server": "3.10.3"
+    "react-tooltip": "4.0.3"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -25,13 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "outputHTML": "webpack-dev-server"
+    "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }

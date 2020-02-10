@@ -12,7 +12,6 @@ module.exports = {
    * @returns {Object} response.json
    */
   async getData(searchWord) {
-    console.log("inside func?");
     // ENHANCMENT: retrieve different Gif even if keyword is reselected
     const requestInfo = {
       api_key: GIPHY_KEY,
